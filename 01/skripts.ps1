@@ -9,4 +9,4 @@ Write-Output "Operētājsistēma: $($os.Caption)"
 Write-Output "Būvējuma numurs: $($os.BuildNumber)"
 Write-Output "PowerShell versija: $psver"
 Write-Output "Datums un laiks: $now"
-Write-Output "Procesu skaits: $procCount"
+Write-Output "Procesu skaits: $procCount
