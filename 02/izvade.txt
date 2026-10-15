@@ -1,1 +1,9 @@
-
+Sort-Object : A parameter cannot be found that matches parameter name
+'Ascending'.
+At line:2 char:38
++     Sort-Object -Property WorkingSet -Ascending |
++                                      ~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Sort-Object], Paramete
+   rBindingException
+    + FullyQualifiedErrorId : NamedParameterNotFound,Microsoft.PowerShell.
+   Commands.SortObjectCommand
