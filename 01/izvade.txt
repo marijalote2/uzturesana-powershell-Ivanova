@@ -1,1 +1,11 @@
+Datora nosaukums: MARIJA
 
+Operētājsistēma: Microsoft Windows 11 Home
+
+Būvējuma numurs: 26200
+
+PowerShell versija: 5.1.26100.9444
+
+Datums un laiks: 10/16/2026 00:39:00
+
+Procesu skaits: 302
