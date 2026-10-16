@@ -1,1 +1,6 @@
-
+Procesi: 208
+Darbojas servisi: 109
+Aptureti servisi: 177
+Kludas pedejas 48 stundas: 9
+C: : 86.88 GB brivi
+D: : 1007.4 GB brivi
