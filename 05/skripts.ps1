@@ -1,15 +1,20 @@
-$since = (Get-Date).AddHours(-48)
+$sakumaLaiks = (Get-Date).AddHours(-48)
 
-$errors = Get-EventLog -LogName System |
-    Where-Object { $_.EntryType -eq "Error" -and $_.TimeGenerated -ge $since }
+$kludas = Get-WinEvent -FilterHashtable @{
+    LogName = "System"
+    StartTime = $sakumaLaiks
+} |
+Where-Object {
+    $_.LevelDisplayName -eq "Error"
+}
 
-$count = $errors.Count
+$kluduSkaits = ($kludas | Measure-Object).Count
 
-$topSource = $errors |
-    Group-Object -Property Source |
-    Sort-Object -Property Count -Descending |
-    Select-Object -First 1
+$biezakaisAvots = $kludas |
+Group-Object -Property ProviderName |
+Sort-Object -Property Count -Descending |
+Select-Object -First 1
 
-Write-Output "Kļūdu skaits pēdējās 48h: $count"
-Write-Output "Biežākais avots: $($topSource.Name)"
-Write-Output "Reizes: $($topSource.Count)"
+Write-Output "Kludu skaits: $kluduSkaits"
+Write-Output "Biezakais avots: $($biezakaisAvots.Name)"
+Write-Output "Reizu skaits: $($biezakaisAvots.Count)"
