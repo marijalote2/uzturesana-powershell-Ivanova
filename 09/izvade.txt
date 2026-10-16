@@ -1,1 +1,211 @@
-
+Process             Lietotajs
+-------             ---------
+System Idle Process
+System
+Registry
+smss.exe
+csrss.exe
+wininit.exe
+services.exe
+lsass.exe
+svchost.exe
+fontdrvhost.exe
+svchost.exe
+svchost.exe
+svchost.exe
+svchost.exe
+svchost.exe
+svchost.exe
+svchost.exe
+svchost.exe
+svchost.exe
+svchost.exe
+svchost.exe
+svchost.exe
+svchost.exe
+svchost.exe
+PresentationFont...
+svchost.exe
+svchost.exe
+svchost.exe
+svchost.exe
+svchost.exe
+WUDFHost.exe
+NVDisplay.Contai...
+svchost.exe
+svchost.exe
+svchost.exe
+svchost.exe
+svchost.exe
+svchost.exe
+Memory Compression
+svchost.exe
+WUDFHost.exe
+svchost.exe
+svchost.exe
+svchost.exe
+svchost.exe
+svchost.exe
+spoolsv.exe
+svchost.exe
+svchost.exe
+svchost.exe
+svchost.exe
+svchost.exe
+svchost.exe
+svchost.exe
+svchost.exe
+svchost.exe
+svchost.exe
+OneApp.IGCC.WinS...
+AppleMobileDevic...
+mDNSResponder.exe
+nvcontainer.exe
+tmInstall.exe
+svchost.exe
+svchost.exe
+svchost.exe
+svchost.exe
+svchost.exe
+svchost.exe
+dllhost.exe
+svchost.exe
+svchost.exe
+svchost.exe
+AggregatorHost.exe
+svchost.exe
+svchost.exe
+svchost.exe
+svchost.exe
+svchost.exe
+svchost.exe
+svchost.exe
+SecurityHealthSe...
+svchost.exe
+svchost.exe
+svchost.exe
+svchost.exe
+svchost.exe
+svchost.exe
+GameInputRedistS...
+svchost.exe
+MoUsoCoreWorker.exe
+svchost.exe
+lghub_updater.exe
+svchost.exe
+WUDFHost.exe
+WmiPrvSE.exe
+OfficeClickToRun...
+svchost.exe
+svchost.exe
+MsMpEng.exe
+MpDefenderCoreSe...
+NisSrv.exe
+csrss.exe
+winlogon.exe
+fontdrvhost.exe
+dwm.exe
+NVDisplay.Contai...
+nvcontainer.exe
+svchost.exe
+svchost.exe
+GameInputRedistS... hreni
+DefenderSessionH... hreni
+nvcontainer.exe     hreni
+nvcontainer.exe     hreni
+sihost.exe          hreni
+svchost.exe         hreni
+svchost.exe         hreni
+taskhostw.exe       hreni
+taskhostw.exe       hreni
+taskhostw.exe       hreni
+explorer.exe        hreni
+ctfmon.exe          hreni
+nvsphelper64.exe    hreni
+svchost.exe         hreni
+NVIDIA Overlay.exe  hreni
+StartMenuExperie... hreni
+RuntimeBroker.exe   hreni
+SearchApp.exe       hreni
+RuntimeBroker.exe   hreni
+NVIDIA Overlay.exe  hreni
+NVIDIA Overlay.exe  hreni
+NVIDIA Overlay.exe  hreni
+UserOOBEBroker.exe  hreni
+NVIDIA Overlay.exe  hreni
+RuntimeBroker.exe   hreni
+SecurityHealthSy... hreni
+vgtray.exe          hreni
+PhoneExperienceH... hreni
+steam.exe           hreni
+steamwebhelper.exe  hreni
+lghub_system_tra... hreni
+SteamService.exe
+steamwebhelper.exe  hreni
+steamwebhelper.exe  hreni
+steamwebhelper.exe  hreni
+steamwebhelper.exe  hreni
+lghub_agent.exe     hreni
+steamwebhelper.exe  hreni
+vibranceGUI.exe     hreni
+brave.exe           hreni
+brave.exe           hreni
+Discord.exe         hreni
+brave.exe           hreni
+brave.exe           hreni
+brave.exe           hreni
+Lightshot.exe       hreni
+Discord.exe         hreni
+Discord.exe         hreni
+Discord.exe         hreni
+unsecapp.exe        hreni
+Discord.exe         hreni
+Discord.exe         hreni
+CompPkgSrv.exe      hreni
+ShellExperienceH... hreni
+RuntimeBroker.exe   hreni
+steamwebhelper.exe  hreni
+brave.exe           hreni
+SystemSettings.exe  hreni
+ApplicationFrame... hreni
+svchost.exe         hreni
+TextInputHost.exe   hreni
+dllhost.exe         hreni
+dllhost.exe         hreni
+chrome.exe          hreni
+chrome.exe          hreni
+chrome.exe          hreni
+chrome.exe          hreni
+chrome.exe          hreni
+gamingservices.exe
+gamingservicesne...
+chrome.exe          hreni
+chrome.exe          hreni
+GameInputSvc.exe
+GameInputSvc.exe
+AppVShNotify.exe    hreni
+chrome.exe          hreni
+SearchIndexer.exe
+chrome.exe          hreni
+chrome.exe          hreni
+powershell.exe      hreni
+conhost.exe         hreni
+chrome.exe          hreni
+chrome.exe          hreni
+copilotapp.exe      hreni
+copilotapp.exe      hreni
+copilotapp.exe      hreni
+copilotapp.exe      hreni
+copilotapp.exe      hreni
+copilotapp.exe      hreni
+copilotapp.exe      hreni
+copilotapp.exe      hreni
+copilotapphost.exe  hreni
+copilotapp.exe      hreni
+chrome.exe          hreni
+chrome.exe          hreni
+svchost.exe
+svchost.exe
+svchost.exe
+brave.exe           hreni
+chrome.exe          hreni
