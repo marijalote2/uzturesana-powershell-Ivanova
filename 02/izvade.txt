@@ -1,9 +1,12 @@
-Sort-Object : A parameter cannot be found that matches parameter name
-'Ascending'.
-At line:2 char:38
-+     Sort-Object -Property WorkingSet -Ascending |
-+                                      ~~~~~~~~~~
-    + CategoryInfo          : InvalidArgument: (:) [Sort-Object], Paramete
-   rBindingException
-    + FullyQualifiedErrorId : NamedParameterNotFound,Microsoft.PowerShell.
-   Commands.SortObjectCommand
+Name                  Id AtminaMB
+----                  -- --------
+explorer           10472    246,5
+chrome             21460    254,2
+chrome             11020    294,3
+Memory Compression  2724      313
+chrome             10708    319,3
+Discord            13412    340,4
+MsMpEng             8464    365,1
+chrome              2248    369,9
+steamwebhelper      7240    410,2
+copilotapp         10516    430,1
