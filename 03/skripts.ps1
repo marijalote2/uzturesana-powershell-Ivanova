@@ -1,17 +1,20 @@
-$running = 0
-$stopped = 0
-
-foreach ($service in Get-Service) {
-    if ($service.Status -eq "Running") {
-        $running++
-    }
-    else {
-        $stopped++
-    }
+$darbojas = 0
+$aptureti = 0
+ 
+foreach ($serviss in Get-Service)
+{
+if ($serviss.Status -eq "Running")
+{
+$darbojas++
 }
-
-$total = $running + $stopped
-
-Write-Output "Darbojas: $running"
-Write-Output "Apturēti: $stopped"
-Write-Output "Kopā: $total"
+elseif ($serviss.Status -eq "Stopped")
+{
+$aptureti++
+}
+}
+ 
+$kopa = (Get-Service).Count
+ 
+Write-Output "Darbojas: $darbojas"
+Write-Output "Aptureti: $aptureti"
+Write-Output "Kopa: $kopa"
