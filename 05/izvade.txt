@@ -1,1 +1,3 @@
-
+Kludu skaits: 9
+Biezakais avots: Microsoft-Windows-DistributedCOM
+Reizu skaits: 6
