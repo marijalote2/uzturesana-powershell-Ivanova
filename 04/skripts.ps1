@@ -1,15 +1,16 @@
-$services = Get-CimInstance Win32_Service |
-    Where-Object { $_.StartMode -eq "Auto" -and $_.State -eq "Stopped" }
-
-if ($services.Count -eq 0) {
-    Write-Output "Automātisko, apturēto servisu skaits: 0"
+$servisi = Get-CimInstance -ClassName Win32_Service |
+Where-Object {
+    $_.StartMode -eq "Auto" -and $_.State -eq "Stopped"
 }
-else {
-    $services | ForEach-Object {
-        Start-Service -Name $_.Name -WhatIf
-    } | Out-File -FilePath "whatif.txt"
 
-    $services | ForEach-Object {
-        Start-Service -Name $_.Name
-    } | Out-File -FilePath "izvade.txt"
+if (($servisi | Measure-Object).Count -eq 0)
+{
+    Write-Output "Atrasti 0 servisi."
+}
+else
+{
+    foreach ($serviss in $servisi)
+    {
+        Start-Service -Name $serviss.Name -WhatIf
+    }
 }
