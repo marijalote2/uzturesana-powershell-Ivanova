@@ -1,12 +1,19 @@
-$procs = Get-WmiObject Win32_Process
+Get-CimInstance -ClassName Win32_Process |
+ForEach-Object {
 
-foreach ($p in $procs) {
-    $owner = $p.GetOwner()
+    try
+    {
+        $lietotajs = Invoke-CimMethod `
+        -InputObject $_ `
+        -MethodName GetOwner
 
-    if ($owner) {
-        Write-Output "Process: $($p.Name) — Lietotājs: $($owner.User)"
+        [PSCustomObject]@{
+            Process = $_.Name
+            Lietotajs = $lietotajs.User
+        }
     }
-    else {
-        Write-Output "Process: $($p.Name) — Lietotāju nevar iegūt (nepietiekamas tiesības)"
+    catch
+    {
+        Write-Output $_.Exception.Message
     }
 }
