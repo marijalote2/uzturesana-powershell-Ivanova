@@ -1,12 +1,9 @@
-$computer = $env:COMPUTERNAME
-$os = Get-CimInstance -ClassName Win32_OperatingSystem
-$psver = $PSVersionTable.PSVersion
-$now = Get-Date
-$procCount = (Get-Process | Measure-Object).Count
+$operetajsistema = Get-CimInstance -ClassName Win32_OperatingSystem
+$procesuSkaits = (Get-Process).Count
 
-Write-Output "Datora nosaukums: $computer"
-Write-Output "Operētājsistēma: $($os.Caption)"
-Write-Output "Būvējuma numurs: $($os.BuildNumber)"
-Write-Output "PowerShell versija: $psver"
-Write-Output "Datums un laiks: $now"
-Write-Output "Procesu skaits: $procCount
+Write-Output "Datora nosaukums: $env:COMPUTERNAME"
+Write-Output "Operetajsistema: $($operetajsistema.Caption)"
+Write-Output "Buvejuma numurs: $($operetajsistema.BuildNumber)"
+Write-Output "PowerShell versija: $($PSVersionTable.PSVersion)"
+Write-Output "Datums un laiks: $(Get-Date)"
+Write-Output "Procesu skaits: $procesuSkaits"
