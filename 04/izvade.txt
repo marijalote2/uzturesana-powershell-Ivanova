@@ -1,15 +1,3 @@
-What if: Performing the operation "Start-Service" on target "Pakalpojums Brave atjauninājums (brave) (brave)".
-What if: Performing the operation "Start-Service" on target "Intel(R) Content Protection HDCP Service (cplspcon)".
-What if: Performing the operation "Start-Service" on target "Microsoft Edge Update Service (edgeupdate) (edgeupdate)".
-What if: Performing the operation "Start-Service" on target "Group Policy Client (gpsvc)".
-What if: Performing the operation "Start-Service" on target "Intel(R) HD Graphics Control Panel Service (igfxCUIService2.0.0.0)".
-What if: Performing the operation "Start-Service" on target "Downloaded Maps Manager (MapsBroker)".
-What if: Performing the operation "Start-Service" on target "Software Protection (sppsvc)".
-What if: Performing the operation "Start-Service" on target "Windows Image Acquisition (WIA) (stisvc)".
-What if: Performing the operation "Start-Service" on target "Google updater internal service (GoogleUpdaterInternalService157.0.8089.0) (GoogleUpdaterInternalService157.0.8089.0)".
-What if: Performing the operation "Start-Service" on target "Google updater service (GoogleUpdaterService157.0.8089.0) (GoogleUpdaterService157.0.8089.0)".
-
-
 Start-Service : Service 'Pakalpojums Brave atjauninājums (brave) (brave)' cannot be started due to the following error: Cannot open brave service on computer '.'.
 At line:16 char:9
 +         Start-Service -Name $serviss.Name
